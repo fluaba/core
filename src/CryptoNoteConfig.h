@@ -108,6 +108,10 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   "165.227.93.243:17236",
   "165.227.19.121:17236",
+  "34.213.60.113:17236",
+  "62.243.135.124:17236",
+  "138.197.109.77:17236",
+  "67.205.174.66:17236",
 };
 
 struct CheckpointData {
@@ -122,9 +126,9 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  { 100, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" },
-  { 1000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" },
-  { 10000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" }
+  { 99, "c4fe9df323407154625eedaecad589205610a9434ada2e7c2907459c1fb3eb02" },
+  { 15011, "7e10ba1f2b0063645b2c0a649652417f4f88b7d7de92c12c1fb0d735369bb27e" }
+ // { 10000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" }
 };
 } // CryptoNote
 
